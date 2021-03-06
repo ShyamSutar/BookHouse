@@ -1,0 +1,145 @@
+*{
+	/*margin:0px;
+	padding:0px;*/
+}
+
+.bggrdimage{
+		background-image: url('bg2.jpg') ;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:100%	;
+	height:100vh;
+}
+.menu{
+
+		width:100%;
+		height: 110px;
+		background-color:rgba(0,0,0,0.5);
+
+}
+	
+.leftmenu{
+
+		width:25%;
+		line-height:57px;
+		float: left;
+
+}
+
+.leftmenu h2{
+
+	padding-left:70px;
+	font-weight: bold;
+	color:white;
+	font-size:36px;
+	padding-top: 35px;
+	font-family: Arial, Helvetica, sans-serif;`7cc
+	
+}
+
+.rightmenu{
+
+		width: 950px;
+		height: 100px;
+		float: right;
+		color:white;
+}
+
+.rightmenu ul{
+
+		margin-left: 260px;
+
+}
+
+.rightmenu ul li {
+
+			display: inline-block;
+			list-style: none;
+			font-size:22px;
+			font-weight: bold;
+			line-height: 110px;
+			margin-left: 40px;
+			text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.rightmenu ul li a{
+
+			text-decoration: none;
+			color: white;
+
+}
+
+
+
+#firstlist a{
+
+			color: orange;
+
+}
+
+.rightmenu ul li a:hover{
+
+				 color: orange;}
+.text{
+
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+
+}
+
+.text h4{
+
+		font-size: 19px;
+		font-family: 'open sans' , sans-serif;
+}
+
+.text h1 {
+
+		font-size: 50px;
+		font-family: 'open sans' , sans-serif;
+		font-weight:bold;
+		margin: 14px 0px;
+
+}
+
+.text h3{
+
+		font-size: 19px;
+		font-family: 'open sans' , sans-serif;
+}
+
+#buttonone {
+
+		background-color: white;
+		border: none;
+		font-size: 14px;
+		font-family: 'open sans' , sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 40px;
+		width: 150px;
+		margin-top: 25px;
+		border: 3px solid white;
+				
+
+}
+#buttontwo{
+
+		background-color:transparent;
+		border:none;
+		font-family: 'open sans' , sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 40px;
+		border: 3px solid white;
+		width: 150px;
+		color:white;
+
+	
+
+}

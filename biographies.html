@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="booksstyle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<html>
+
+<head>
+	<title>Biographies Books</title>
+</head>
+<link rel="shortcut icon" href="favicon.png">
+<body>
+
+	<section class="zoom">
+	<img src="mountain1.png" id="layer1">
+	<img src="mountain2.png" id="layer2">
+	<img src="text.png" id="text">
+	</section>
+
+	<section class="content">
+		<h2> BIOGRAPHIES BOOKS</h2>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://en.wikipedia.org/wiki/Steve_Jobs_(book)"><img src="stevejobs.jpg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text" align="center">WALTER ISAACSON</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://en.wikipedia.org/wiki/The_Story_of_My_Experiments_with_Truth"><img src="MAHATMAGANDHI.jpg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Gandhi's Autobiography</h5>
+        <p class="card-text" align="center">MOHANDAS KARAMCHAND GANDHI</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://en.wikipedia.org/wiki/Mein_Kampf"><img src="hitler.jpeg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Mein Kampf</h5>
+        <p class="card-text" align="center">ADOLF HITLER</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://en.wikipedia.org/wiki/Dreams_from_My_Father"><img src="obama.jpg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Dreams from My Father</h5>
+        <p class="card-text" align="center">BARACK OBAMA</p>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+
+	<script type="text/javascript">
+
+						var layer1=document.getElementById('layer1')
+						scroll=window.pageYOffset;
+						document.addEventListener('scroll', function (e) {var offset=window.pageYOffset;
+						scroll=offset;
+						layer1.style.width=(100+scroll/5)+'%';
+												});
+
+
+
+						var layer2=document.getElementById('layer2')
+						scroll=window.pageYOffset;
+						document.addEventListener('scroll', function (e) {var offset=window.pageYOffset;
+						scroll=offset;
+						layer2.style.width=(100+scroll/5)+'%';
+						layer2.style.left=scroll/50+'%';
+												});
+
+						var text=document.getElementById('text')
+						scroll=window.pageYOffset;
+						document.addEventListener('scroll', function (e) {var offset=window.pageYOffset;
+						scroll=offset;
+						layer2.style.width=(100+scroll/5)+'%';
+						text.style.top=-scroll/20+'%';
+												});
+
+
+	</script>
+
+</body>
+
+
+</html>
